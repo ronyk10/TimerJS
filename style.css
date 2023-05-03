@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    background-image: linear-gradient(to right bottom, #051937, #042d60, #01428c, #0358ba, #126feb);
+    height: 100%;
+}
+
+
+.flex0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.place {
+    display: flex;
+    flex-direction: column;
+    border: 5px black solid;
+    border-radius: 5px;
+    background: white
+}
+
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px;
+
+}
